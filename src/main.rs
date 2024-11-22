@@ -12,7 +12,7 @@ use colored::*;
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    let endpoint = "http://127.0.0.1:10000";
+    let endpoint = "http://168.119.198.25:10000";
     
     println!("{} {}", "🔌".bold(), "Connecting to endpoint:".bright_blue());
     println!("   {}", endpoint.bright_white());
